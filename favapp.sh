@@ -1,4 +1,4 @@
 #!/bin/sh
 
-app=$(gum choose "firefox" "ncdu" "htop");
+app=$(gum write);
 sudo dnf install -y $app
